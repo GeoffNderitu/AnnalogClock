@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock{
+    background-color: rgb(250, 249, 249);
+    color: #080808;
+    width: 490px;
+    height: 490px;
+    border-radius: 50%;
+    border: 15px solid #6b4e4e;
+    margin: 0 auto;
+    position: relative;
+}
+
+.katikati{
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 235px;
+    left: 235px;
+}
+.saa{
+    font-size: 20px;
+    color: rgb(19, 19, 20);
+    font-weight: bold;
+    position: absolute;
+}
+.saa-1{
+    top: 40px;
+    right: 130px;
+}
+.saa-2{
+    top: 125px;
+    right: 45px;
+}
+.saa-3{
+    top: 235px;
+    right: 10px;
+}
+.saa-4{
+    top: 345px;
+    right: 45px;
+}
+.saa-5{
+    top: 430px;
+    right: 130px;
+}
+.saa-6{
+    bottom: 10px;
+    left: 240px;
+}
+.saa-7{
+    top: 430px;
+    left: 130px;
+}
+.saa-8{
+    top: 345px;
+    left: 45px;
+}
+.saa-9{
+    top: 235px;
+    left: 10px;
+}
+.saa-10{
+    top: 125px;
+    left: 45px;
+}
+.saa-11{
+    top: 40px;
+    left: 130px;
+}.saa-12{
+    top: 10px;
+    right: 235px;
+}
+.minute-hand-parent{
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.minute-mkono{
+    position: relative;
+}
+.hand{
+    width: 4px;
+    height: 200px;
+    background-color: #080808;
+    position: absolute;
+    left: 193px;
+}
+.kichwa{
+    font-size: 30px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    position: absolute;
+    color: #080808;
+    left: 185px;
+    top: -7px;
+}
+.hour-hand-parent{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.hour-mkono{
+    position: relative;
+}
+.mkono{
+    width: 4px;
+    height: 150px;
+    background-color: #080808;
+    position: absolute;
+    left: 150px;
+}
+.pointer{
+    font-size: 30px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    position: absolute;
+    color: #080808;
+    left: 142px;
+    top: -7px;
+}
+.second-hand-parent{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.second-mkono{
+    position: relative;
+}
+.seconds{
+    width: 2px;
+    height: 175px;
+    background-color: #0e0d0d;
+    position: absolute;
+    left: 174px;
+}
